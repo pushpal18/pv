@@ -1,0 +1,118 @@
+
+.main-container{
+	background: url(https://goofy-lamarr-a60b40.netlify.app/img2.jpg);
+	width: 100%;
+	height: 100%;
+    position: absolute;
+	top: 0;
+	background-size:cover;
+
+}
+#WELCOMETOCODEFORCES{
+	background-color:gray;
+}
+
+
+.search-container{
+	display: flex;
+	width:300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	height: 50px;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 3px 10px gray;
+
+
+}
+#input{
+	width: 85%;
+	outline: none;
+	border: transparent;
+	padding: 3px 7px;
+	font-size: 20px;
+	box-shadow: -4px -4px 10px rgba(255, 255, 255, 1), inset 4px 4px 10px rgba(0, 0, 0, 0.05), inset -4px -4px 10px rgba(255, 255, 255, 1), inset 4px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.search{
+	width: 100px;
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	/* border-radius: 45px; */
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	}
+
+
+.search:hover{
+	background-color: black;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+}
+.profile-card{
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: gray;
+	-webkit-backdrop-filter: blur(5px);
+	overflow: hidden;
+	margin-top: 60px;
+	box-shadow: 0 3px 10px gray;
+}
+
+.main-info{
+	width: 279px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	font-family: 'Varela Round',sans-serif;
+	background-color: black;
+	background-filter:blur(5px);
+	border-bottom: 1px solid gray;
+	color: white;
+
+
+}
+#prof-img{
+	height: 80px;
+	width:80px;
+	border-radius:50%;
+	box-shadow: 0 3px 10px gray;
+}
+
+.name{
+     margin-top: 15px;
+    color: white;
+}
+#username{
+	font-size: 30px;
+	color: white;
+	border-bottom: 1px solid gray;
+	margin: 20px auto;
+}
+.follow {
+	border-top: 1px solid gray;
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	height: 80px;
+	align-items: center;
+	
+}
+.follow div{
+	width: 50%;
+	text-align: center;
+	padding-top: 18px;
+	border: 1px solid gray;
+	
+}
